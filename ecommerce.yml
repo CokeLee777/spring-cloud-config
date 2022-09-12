@@ -1,3 +1,9 @@
 token:
   expiration_time: 86400000
-  secret: user_secret_key_user_secret_key_user_secret_key_default
+  secret: '{cipher}AQAIxPx4q4u3+YWGa89E1ggNMU2aCLgWei/y+cuuZicIrZq3r0w+V/Ux
+  M8mSyS4JFarir7rnQNBrIdLWge/i6XRE0y3ERTseo3rJrImJ5pwcO620LkBRYosQ/vAelcFan
+  UFci2xhe5+8OKJW3iGvtJoI/u8Whj9TYZOo/LnA/+gyBsaDnH3pKcRLZH0zmzgv9l77/3llLq
+  FT0ECeFfGsfzck+ZFUbfP6EOcZNH48xn5OEJcqyK/g6D2KLadj6e+ujgwzDVVBg7dziGQjT7y
+  xzu8UlqNrR5cbJgi6uDHBMg9/ULP9ODUUaGRYQAi77YUYDiRoHVKjvffixKcBsIbZySFPAtaR
+  Fu8NM06XKwCAKooDOLhPGD2StI7iQrjBy3k4u9Tjy3KKZB5g0cd/1xm87vtjXPXSLqAeoP2Te
+  bjLO2cWD8Znf5AAu7yugBICA69KM7JH9krKIcMSzD6er++GWcgP'
