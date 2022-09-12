@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:h2:tcp://localhost/~/testdb
+    username: '{cipher}b9dd185098f9e64c830aa1f2ac2b52f8a1b8684ee154c2477316e6277ec12f82'
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+token:
+  expiration_time: 86400000
+  secret: user_secret_key_user_secret_key_user_secret_key_application_changed
