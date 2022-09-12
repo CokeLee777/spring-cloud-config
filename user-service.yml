@@ -1,7 +1,11 @@
 spring:
   datasource:
     url: jdbc:h2:tcp://localhost/~/testdb
-    username: '{cipher}b9dd185098f9e64c830aa1f2ac2b52f8a1b8684ee154c2477316e6277ec12f82'
+    username: '{cipher}AQBGPt/nDEBS7vt2fNrmey2rhoq2eB0GzSiSaUykwqR9hZQhSE2MDsUhJNFvAVB
+    /np3GKSlgvWcHZfL2RpOssz68/X3XCYs3cdDJ33woRGgLpyjfCjRIrrb+gQ8JZ9ks9ECCNfEA9TWxbDpYZ1
+    CH3QzccDES9WstL3on/hocu1Z0WMAsoBGbEKglsQdx+fgTwoT8tAU6cSnFr3s3PTxYxHSO3m5IObp+z+Rwy
+    wGsxHJCtmF4D6Fc3jYirmrscpJ5U8gdS2vX2j0L/tbpBxMq6LCYEfzDK+hSCTYXQDR3whgJDCCPCoklArQ0
+    /Qh12xdM9dXqb4PjyNvRX7PpIpk4ziy/Qc+TdXC6fr0ch3rMIC8upzzQ1ygF/oO2m/UorHlxbHo='
     password:
     driver-class-name: org.h2.Driver
   jpa:
@@ -10,4 +14,9 @@ spring:
 
 token:
   expiration_time: 86400000
-  secret: user_secret_key_user_secret_key_user_secret_key_application_changed
+  secret: '{cipher}AQCGAD3bkkLmyf9uxha2HeS11eb8LJKdhyM0EmyyGVBZUChdSXFw7QtpHoeQOypil99dP1aRd4rjs
+  DIX/ZGy6CvTxHiYaxiLpgr8ie0AFwBJSeqLKKiH64zp2icgsgaOQ9DxFYgmkmMk847X+YodhGdjS7KWgW4BYBO
+  51wgR4MGc+eX6HievXBBIa999Kqag4T15jmsXaMYHsX2UDps6aBB4CoWjJuIXwRa8+J8lSYabJA9Nt0UI0kKy+
+  eHgQe8BqvhfOmcfeTmZimg24HRRRcJ+Fov6xHsBTR7bK2bTm8/PN6J495LFpZsl6D2VrMFO1HdQTGS3l82g+mF
+  IFa0vE9/W1QTukDew2CZBdPR+F/IA1qFWNmCkfNG5gZ81TV764oZOqRwuJnqE+2diuYy3SxORIZTZng7Dd6rZO
+  g48mHKDpsxX3nbfjKP4eEssHsoWx5wXtMynLM9VcQv6l3m0mjhk'
