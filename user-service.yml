@@ -13,4 +13,5 @@ token:
   secret: '{cipher}AQAvCwjQai3fShIwneoaRW1uOC9YBS+ZridOg3CsUvNxgN6b6zqy7M7k6eT4Gi4K0J5FSGLOT6nusD7olzgqsg8StZaGxYECO9xih2Bn/ojfTGjULcCJj2OB/zwEyivIHMsZ7AL4AKqy48cnJ5SNstRhBpxcNkiamwBDggWc32MTq0aQLEJ+5cpOcbTB7L2xASMXC37nz69hnP8e+mIR2rh2z4Cem/r1+yX4rnRfZGhs+TiqMpEAvLQOp0bPowGBz34/FdT2Gu6Y0Ag/A1zCUWkdRsNAW1D6/TYnyKEiHxdzP8Vg1rZKxv5fvfX151oKOQf+N9NVdKGdt1YCtwpXo3RkWZEL8OVG4q/Zw5yG/7C05d+M4FfDYJm5phXOg2cWYrnAYILz0LjUfrxS4E1rTL1WxT5SgVLRW5iqQnWxgAAIti4zS6rVgfvOuPSsFqv6Akc='
 
 order_service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  # url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://order-service/order-service/%s/orders  # MicroService 이름으로 변경
