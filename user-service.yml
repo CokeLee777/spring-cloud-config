@@ -1,10 +1,14 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/testdb
+    url: jdbc:h2:mem:testdb
     username: '{cipher}AQBrS2d/xlqwkiueF8rwzpSWWlxfvQy+3yhaS0vY445Wpt8lgqImtvqggWP2AvJxi9EJDvLf3pPjn2j7+V64fr4kNQUxHycEWDSGFfGCt81yhg8jVaT8COtbu3F5il1CLmBpVnZUpRNKc63h8cHmr+eB963reQ4DqZ9loGN7yUz7omAvjKxQ8B6oB+UHQ9eDIdlo/9QJTJHFFsozxw3t8mQXDn76iYJepn9kxCyPK/UTzGJa/nYZ9mvYiBcC8w6bi2+TwOjr3/t4mplQYP1BAWERy3ltGceKoKtEHya5zidc1zamS3EtcnfCTYhD5hD9FhOAQw4G94F/RzEbMHz/MleO5uKeMmONUlOE0XYEH3Yr1Adbhd+fdZXxXOL+HVR2dsA='
     password:
     driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
   jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
       ddl-auto: create
 
